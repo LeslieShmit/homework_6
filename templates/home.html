@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Главная</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+</head>
+<style>
+    body {
+        display: flex;
+        margin: 0;
+        height: 100vh;
+    }
+    .nav-sidebar {
+        width: 200px;
+        background-color: black;
+        color: white;
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+    }
+    .nav-sidebar .nav-link {
+        color: white;
+    }
+    .nav-sidebar .nav-link:hover {
+        background-color: #444;
+    }
+    .content {
+        flex-grow: 1;
+        padding: 20px;
+    }
+</style>
+<body>
+<nav class="nav-sidebar">
+    <div class="menu-title">
+
+
+        <i class="fas fa-bars"></i>Меню
+    </div>
+    <div class="nav flex-column">
+        <a class="nav-link" href="home.html">Главная</a>
+        <a class="nav-link" href="catalog.html">Каталог</a>
+        <a class="nav-link" href="category.html">Ассортимент</a>
+        <a class="nav-link" href="contacts.html">Контакты</a>
+    </div>
+
+    <div class="dropdown mt-auto">
+
+        <div class="dropdown">
+            <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown"
+                    aria-expanded="false">
+                Пользаватель
+            </button>
+            <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Профиль</a></li>
+                <li><a class="dropdown-item" href="#">Заказы</a></li>
+                <li><a class="dropdown-item" href="#">Выход</a></li>
+            </ul>
+        </div>
+
+    </div>
+</nav>
+<div class="container mt-5">
+    <p class="text-center fs-1">Главная</p>
+    <p class="text-center">
+        Вы находитесь на сайте, предназначенном для продажи товаров.
+    </p>
+    <div class="row">
+        <div class="col-4">
+            <div class="card text-center">
+  <div class="card-header">
+    Товар 1
+  </div>
+  <div class="card-body mt-2">
+    <h5 class="card-title">100$</h5>
+    <p class="card-text">А вот тут подробное описание товара, которое подъедет попозже.</p>
+    <div class="d-grid gap-2">
+      <a href="#" class="btn btn-outline-primary">Купить</a>
+        </div>
+  </div>
+</div>
+        </div>
+            <div class="col-4">
+            <div class="card text-center">
+  <div class="card-header">
+    Товар 1
+  </div>
+  <div class="card-body mt-2">
+    <h5 class="card-title">100$</h5>
+    <p class="card-text">А вот тут подробное описание товара, которое подъедет попозже.</p>
+    <div class="d-grid gap-2">
+      <a href="#" class="btn btn-outline-primary">Купить</a>
+        </div>
+  </div>
+</div>
+        </div>
+            <div class="col-4">
+            <div class="card text-center">
+  <div class="card-header">
+    Товар 1
+  </div>
+  <div class="card-body mt-2">
+    <h5 class="card-title">100$</h5>
+    <p class="card-text">А вот тут подробное описание товара, которое подъедет попозже.</p>
+    <div class="d-grid gap-2">
+      <a href="#" class="btn btn-outline-primary">Купить</a>
+        </div>
+  </div>
+</div>
+        </div>
+    </div>
+</div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.3.3/js/bootstrap.bundle.min.js">
+</script>
+</body>
+</html>
